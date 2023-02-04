@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=popinc:ital,wght@0,700;1,500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.button{
+    background: linear-gradient(90deg, #FFDB00 -13.32%, #FF8900 105.84%);
+    border-radius: 18px;
+    color: white;
+    border: 0;
+    width: 10rem;
+    height: 2.5rem;
+}
+.section01{
+    background-color: linear-gradient(90deg, #00B0C6 -13.32%, #356AF3 105.84%);;
+}
+.Rectangle{
+    background: #ffffff;
+    width: 25rem;
+    height: 37rem;
+    border-radius: 30px;
+}
+ul {
+    list-style: none;
+  }
+  .Rectangle ul li::before {
+    content: "•";
+    color:#05CD99;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  .button01{
+    width: 25rem;
+    height: 4.2rem;
+    background: linear-gradient(90deg, #FFDB00 -13.32%, #FF8900 105.84%);
+    border-radius: 0px 0px 25px 25px;
+  }
+  .button01 p{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+  }
+  .section02{
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+  }
+  .one{
+    background: white;
+    border-radius:18px ;
+    width: 18rem;
+    height: 6rem;
+  }
+  .two{
+    background: white;
+    border-radius:18px ;
+    width: 18rem;
+    height: 6rem;
+  }
+  .section03{
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;}
+   .Rectangle03{
+    width: 8rem;
+    height: 2rem;
+    background-color: #E3F8FA;
+    border-radius: 11px;
+    text-align: center;
+   }
+   .button03{
+    width: 10rem;
+    height: 3rem;
+    background: linear-gradient(90deg, #00B0C6 -13.32%, #356AF3 105.84%);
+    border-radius: 13px;
+    border: 0;
+    margin-top: 35px;
+
+   }
+   .Rectangle04{
+    width: 25rem;
+    height: 13rem;
+    background-color: #ffffff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.28);
+    border-radius: 20px;
+    margin:0 auto;    
+   }
+   
+   
+   .button04{
+    background-color: #ffffff;
+    width: 250px;
+    border-radius: 13px;
+    color: #FE7C0F;
+    border: 0;
+   }
+   .number{
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    flex-wrap: wrap;
+   }
+   footer{
+    background: #141414;;
+    
+    color: #E1E1E1;
+    text-align: center;
+   }
+   
+   .Rectangle06{
+    background-color: #00B0C6;
+    width: 15%;
+    height: 100%;
+    padding-top: 10px;
+    float: right;
+    
+   }
+    .about{
+        display: flex;
+        justify-content: space-around;
+    }
+    .colam{
+        display: flex;
+        justify-content: space-around;
+    }
+    .colam01{
+        width: 17%;
+        height: 50%;
+        background-color: rgb(255, 255, 255);
+    }
+
+
+
+
+    .text .char {
+      display: inline-block;
+      -webkit-animation-delay: calc(0.25s + var(--char-index) * 0.5s);
+              animation-delay: calc(0.25s + var(--char-index) * 0.5s);
+      transition: all 0.25s calc(0.25s + var(--char-index) * 0.5s);
+    }
+    .text--enter [data-scroll='out'] .char {
+      opacity: 0;
+      -webkit-transform: translate(0, -150%);
+              transform: translate(0, -150%);
+    }
+    .text--enter .char {
+      opacity: 1;
+      -webkit-transform: translate(0, 0);
+              transform: translate(0, 0);
+    }
+  
+  .text--fading [data-scroll='out'] .char {
+    opacity: 0;
+  }
